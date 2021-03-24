@@ -1,94 +1,176 @@
-<!DOCTYPE html>
 <html>
+	<head>
+		<style type="text/css">
+			.top {
+				width: 50%;
+				height: 0px;
+				margin-bottom: 2px;
+				padding-bottom: 0px;
+				/* Safari 5.1+, Chrome 10+ */
+				background: -webkit-linear-gradient(left, grey, #000000, grey);
+				/* Firefox 3.6+ */
+				background: -moz-linear-gradient(left, red, #1111100, blue);
 
-<head>
+			}
+			.container {
+				width: 75%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.header {
+				width: 100%;
+				height: 80;
+				/*background-repeat: repeat-x;*/
+				/* Safari 5.1, Chrome 10+ */ 
+				background: -webkit-linear-gradient(top, rgba(60,40,170,0.85), rgba(140,175,255,0)); 
+				/* Firefox 3.6+ */ 
+				background: -moz-linear-gradient(top, rgba(30,200,255,0.85), rgba(140,175,255,0)); 
+				text-align: center;
+				padding-top: 30px;
+			}
+			.separation {
+				width: 100%;
+				height: 4;
+				background-color: blue;
+				margin-top: 15;
+				margin-bottom: 20;
+				/* Safari 5.1+, Chrome 10+ */ 
+				background: -webkit-linear-gradient(left, rgba(30,0,100,0), rgba(10,50,200,1), rgba(50,20,60,0)); 
+				/* Firefox 3.6+ */ 
+				background: -moz-linear-gradient(left, rgba(40,200,40,0), rgba(0,0,200,1), rgba(10,70,10,0)); 
+			}
+			.spantitle {
+				font-family: brush script MT;
+				font-weight: 200;
+				font-size: 400%;
+				color: #e0ffff;
+				text-shadow:2px 2px 4px #000000;
+			}
+			.leftdiv {
+				width: 20%;
+				/*height: 80%;*/
+				float: center;
+				padding-left: 550px;
+				margin: 0px;
+			}
+			.bodydiv {
+				width: 75%;
+				/*height: 80%;*/
+				padding-left: 200px;
+				float: left;		
+				/*background-color: #ff0033;*/
+				margin-left: -1px;
+				margin-right: -1px;
+				text-align: justify;
+			}
+			ul {
+				list-style-type: none;
+				display: inline;
+			}
+			li {
+				color: #220077;
+				padding: 2px;
+				margin-right: 10px;
+				border-bottom: #bbbbbb solid 1px;
+			}
+			hr {
+				border: 0px none;
+				height: 80%;
+				width: 1px;
+				margin: 0px;
+				float: left;
+				/* Safari 5.1+, Chrome 10+ */
+				background-im-+*age: -webkit-linear-gradient(top, rgba(100,0,0,0), rgba(0,0,200,1), rgba(100,0,0,0));
+                                /* Firefox 3.6+ */
+				background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,200,1), rgba(0,0,0,0));
 
-	<title> Personal Profile </title>
-	<link rel = "stylesheet" type = "text/css" href = "css/style.css">
-
-	<h1 style="text-align:center;"> <i> <font size = "7">Taimour Khan. </font> </h1>
-	
-	
-	
-
-</head>
-
-<body>
-
-
-<header>
-
-
-	<div class = "main">
-		
-		
-		
-		
-		<div class = "logo"> 
-			<img src = "mp.png" align = right style = "margin: 20px">
-		
-	
-		
+			}
+	.header2 {
+	font-family: brush script mt;
+	font-weight: 200;
+	font-size: 200%;
+	color: #ffffff;		
+	margin-left: auto;
+	margin-right: auto;
+	width: 520px;
+	height: 50px;
+	background: #a9cfb3 url("top_round.png") no-repeat left top;
+	padding: 0px 0px 0px 0px;	
+	text-align: center;
+}
+.body {
+	font-family: serif;
+	font-weight: 200;
+	font-size: 100%;
+	color: #ffffff;
+	border-top-style: solid;
+	border-top-color: #111111;
+	border-top-width: 3px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	width: 520px;
+	height: 100px;
+	background-color: #cccfff;
+}
+		</style>
+	</head>
+	<body>
+		<div class="top"></div>
+		<div class="container">
+			<div class="header"><span class="spantitle">Skills & Expertise</span></div>
+			<div class="separation"></div>
+			<div class="leftdiv">
+				<ul>
+					<li>Object Oriented Programming</li>
+					<li>Prolific in C++</li>
+					<li>Video Production</li>
+					<li>Sound Editing</li>
+					<li>Public Speaking</li>
+				</ul>
+			</div>
+			<hr/>
 			
+			<div class = "Gallery">
+			<a href = "jv.png" target = "blank_"> <img src = "1.jpg" width = "10" height = "20"> </a>
+			</div>
+			
+			<div class="header2">
+			<p class="center">OOP</p>
+			Have good OOP skills. Have used it in game development in unity etc.
+			</div>
+			<div class="body">
+			
+			</div>
+			
+			<div class="header2">
+			<p class="center">C++</p>
+			Can do all sorts of projects in CPP.
+			</div>
+			<div class="body">
 		
+			</div>
+			
+			<div class="header2">
+			<p class="center">Video Production</p>
+			I've filmed and edited a number of videos.
+			</div>
+			<div class="body">
 		
-		
-		<ul>
-
-			<li class = "active"><a href = "#"> Home</a></li>
-			<li><a href = "#"> Music</a></li>
-			<li><a href = "#"> Booking</a></li>
-			<li><a href = "#"> Socials</a></li>
-			<li><a href = "#"> Contact</a></li>
-
-		</ul>
-	
-	<div class = "icon1">
-	<img src = "n.png" style = "margin: -600px 320px 185px">
-	<div class = "icon2">
-	<img src = "l.png" style = "margin: -600px  311px 145px">
-	<div class = "icon3">
-	<img src = "w.png" style = "margin: -600px  322px 115px">
-	<div class = "icon4">
-	<img src = "p.png" style = "margin: -600px  540px 245px">
-	<div class = "icon5">
-	<img src = "em.png" style = "margin: -600px  540px 205px">
-		
-	
-	
-	<div class = "info">	
-	<img src = "na.png" style = "margin: -600px 370px 260px">
-	<img src = "lo.png" style = "margin: -600px 370px 230px">
-	<img src = "wo.png" style = "margin: -600px 370px 190px">
-	<img src = "num.png" style = "margin: -600px 585px 320px">
-	<img src = "E.png" style = "margin: -600px 585px 290px">
-	
-	
-		<div class = "socials">
-	
-		 
-	 <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png 
-		 alt="Simply Easy Learning" width="10" height="10"
-		 style= "float:right; margin:650px 1px 1px">
-		 
-		 <img src= https://www.bigclassaction.com/blog/wp-content/uploads/2015/09/facebook-logo.png 
-		 alt="Simply Easy Learning" width="50" height="40"
-		 style= "float:right; margin:650px 15px 20px">
-		 
-		 <img src= https://www.fouroverfour.jukely.com/wp-content/uploads/2017/07/sclogo.png 
-		 alt="Simply Easy Learning" width="50" height="40"
-		 style= "float:right; margin:650px 15px 30px">
-		 		
-	</div>
-	
-
-
-
-</header>
-
-
-
-</body>
-
+			</div>
+			
+			<div class="header2">
+			<p class="center">Sound Editing</p>
+			Am adept to using sound editing softwares.
+			</div>
+			<div class="body">
+			
+			</div>
+			
+			
+			<br style="clear: both"/>
+			<div class="separation"></div>
+		</div>
+	</body>
 </html>
-
